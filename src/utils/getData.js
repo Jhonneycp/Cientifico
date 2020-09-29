@@ -1,5 +1,5 @@
 const API = 'https://rickandmortyapi.com/api/character/'
-const APIPG = 'https://rickandmortyapi.com/api/character/?page=3'
+const APIPG = 'https://rickandmortyapi.com/api/character/?page='
 
 const getData =  async (id, PG) => {
     const apiURL = id ? `${API}${id}` : `${APIPG}${PG}`

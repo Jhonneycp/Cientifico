@@ -3,7 +3,7 @@ import getData from '../utils/getData'
 
 const Home = async () => {
 
-    const characters = await getData()
+    const characters = await getData(null, 4)
 
     const view = `
     <div class="Characters">
