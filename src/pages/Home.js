@@ -16,7 +16,10 @@ const Home = async () => {
             </article>
             `).join('')}
     </div>
-`
+
+    <button onclick="getMore()"> Loading </button>
+
+    `
 
     return view
 }
